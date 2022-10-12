@@ -5,7 +5,7 @@ services:
     image: postgres
     environment:
       POSTGRES_USER: root
-      POSTGRES_PASSWORD: CV7IyyaCde4245v8yOYcXXPbYk5udxvJH4AzCaL1Ud2s=
+      POSTGRES_PASSWORD: rootpassword
       POSTGRES_DB: acmefit
     ports:
       - "5432:5432"
